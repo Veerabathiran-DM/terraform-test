@@ -17,7 +17,7 @@ module "gcs_bucket" {
         age = 30 
         num_newer_versions = 3
       }
-    },
+    }
   ]
 }
 
