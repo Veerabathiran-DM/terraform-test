@@ -23,5 +23,5 @@ module "gcs_bucket" {
 
 # Output the bucket name
 output "bucket_name" {
-  value = module.gcs_bucket.bucket_name
+  value = module.gcs_bucket.name
 }
