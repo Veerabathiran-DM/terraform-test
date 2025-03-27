@@ -1,7 +1,8 @@
 module "gcs_bucket" {
   source = "terraform-google-modules/cloud-storage/google//modules/simple_bucket"
+  project_id = var.project_id
 
-  name          = var.bucket_name 
+  name          = var.bucket_name
   location      = "US" 
   versioning    = true
   force_destroy = true 

@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "google" {
-  project = "poc-ad-target-env-413614"
-  region = "us-central1"
+  project = var.project_id
+  region = var.region
 }
